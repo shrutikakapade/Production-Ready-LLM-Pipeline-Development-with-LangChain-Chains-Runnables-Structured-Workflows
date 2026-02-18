@@ -46,8 +46,7 @@ This repository demonstrates how to build exactly that using:
 
 <ul>
 <li><strong>1️⃣ chains-vs-runnables-langchain.ipynb</strong></li>
-<li><strong>2️⃣ How_to_create_pipeline(Workflow).ipynb</strong></li>
-<li><strong>3️⃣ Pipeline_using_Runnables.ipynb</strong></li>
+<li><strong>2️⃣ Pipeline_using_Runnables.ipynb</strong></li>
 </ul>
 
 <p>
@@ -93,49 +92,8 @@ Understand the difference between traditional <strong>Chains</strong> and modern
 
 <hr>
 
-<h2>2️⃣ Creating a Pipeline (Workflow Design Layer)</h2>
 
-<h3>Purpose</h3>
-<p>
-Learn how to design a structured LLM workflow before implementing it.
-</p>
-
-<h3>What This Notebook Covers</h3>
-
-<ul>
-<li>Step-by-step pipeline planning</li>
-<li>Defining input → transformation → output stages</li>
-<li>Designing reusable pipeline components</li>
-<li>Structured data flow between components</li>
-<li>Practical workflow creation using LangChain</li>
-</ul>
-
-<h3>Conceptual Pipeline Structure</h3>
-
-<pre>
-User Input
-   ↓
-Prompt Template
-   ↓
-LLM Model
-   ↓
-Output Parser
-   ↓
-Structured Output
-</pre>
-
-<h3>Key Learning</h3>
-
-<ul>
-<li>Pipeline design before coding</li>
-<li>Separation of concerns</li>
-<li>Reusable AI components</li>
-<li>Scalable workflow architecture</li>
-</ul>
-
-<hr>
-
-<h2>3️⃣ Pipeline using Runnables (Production Layer)</h2>
+<h2>2️⃣ Pipeline using Runnables (Production Layer)</h2>
 
 <h3>Purpose</h3>
 <p>
